@@ -1,0 +1,77 @@
+{
+  "step": "0c",
+  "title": "Give it one search",
+  "session_id": null,
+  "conversations": [
+    "716fb301-a2d0-4aae-a40e-1a4901fed307"
+  ],
+  "complete": true,
+  "checkpoints": [
+    {
+      "text": "The one-search baseline's answer is saved in runs/part0/",
+      "reached": true
+    },
+    {
+      "text": "Your answers are in WRITEUP.md",
+      "reached": true
+    }
+  ],
+  "answers": [
+    {
+      "question": "Which Wikipedia page did it read? Quote the line of the output that shows it.",
+      "answer": "Read “Persian Surgery Dervishes”.",
+      "written_by": "the student"
+    },
+    {
+      "question": "Did that page settle the claim correctly? If not, why do you think the search led there?",
+      "answer": "It did not because the search was limited to the information on the piece, but not the information on the composer, so the date of birth is still unknown.",
+      "written_by": "the student"
+    }
+  ],
+  "record": [
+    {
+      "kind": "asked",
+      "text": "Run the one-search baseline on the claim",
+      "time": "2026-11-24T00:33:46-06:00"
+    },
+    {
+      "kind": "ran",
+      "text": "Ran check.py --method one-search",
+      "status": "ok",
+      "file": "runs/part0/one-search-1795502029.json",
+      "time": "2026-11-24T00:33:48-06:00"
+    },
+    {
+      "kind": "said",
+      "verdict": "doesn't say",
+      "reason": "The provided Wikipedia text identifies Terry Riley as the composer of Persian Surgery Dervishes but does not mention his birth date, so the claim about June 24, 1935 cannot be confirmed or refuted from it.",
+      "lookups": 2,
+      "what": "Ran check.py --method one-search",
+      "file": "runs/part0/one-search-1795502029.json",
+      "expected": null,
+      "reached": [
+        "The one-search baseline's answer is saved in runs/part0/",
+        "Your answers are in WRITEUP.md"
+      ],
+      "time": "2026-11-24T00:33:53-06:00"
+    }
+  ],
+  "told_the_page": [
+    {
+      "time": "2026-11-24T00:33:11-06:00",
+      "kind": "status",
+      "text": "Waiting for you to ask for the one-search run"
+    },
+    {
+      "time": "2026-11-24T00:33:48-06:00",
+      "kind": "status",
+      "text": "Running the one-search baseline on the claim"
+    },
+    {
+      "time": "2026-11-24T00:33:54-06:00",
+      "kind": "status",
+      "text": "Waiting for your answers in WRITEUP.md"
+    }
+  ],
+  "turns": 2
+}

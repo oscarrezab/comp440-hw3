@@ -1,0 +1,30 @@
+{
+ "claim": "The composer of \"Persian Surgery Dervishes\" was born on June 24, 1935.",
+ "verdict": "doesn't say",
+ "evidence": [],
+ "explanation": "The provided Wikipedia text identifies Terry Riley as the composer of Persian Surgery Dervishes but does not mention his birth date, so the claim about June 24, 1935 cannot be confirmed or refuted from it.",
+ "trace": [
+  {
+   "tool": "search",
+   "input": {
+    "query": "Persian Surgery Dervishes"
+   },
+   "result": "1. Persian Surgery Dervishes: Polac. Persian Surgery Dervishes has been republished twice: first by Mantra Records, and then by Dunya Records. On Persian Surgery Dervishes Riley plays\n2. Terry Riley: for solo electric organ; two soundtracks (2007 reissue) 1972: Persian Surgery Dervishes, Shanti 83502 1975: Le Secret de la Vie (Lifespan film soundtrack)\n3. Church of Anthrax: Anthrax (1971) The Academy in Peril (1972) Terry Riley chronology A Rainbow in Curved Air (1969) Church of Anthrax (1971) Persian Surgery Dervishes (1972)\n4. Jon B. Higgins: the original on March 24, 2008. *Cowley, Julian. Terry Riley \"Persian Surgery Dervishes\" liner notes. Aguirre Records. 2017. \"Alvin Lucier \u2013 Crossings\n5. Abol Ghassem Bakhtiar: gynecology, and minor surgery to medical students. In 1939, Bakhtiar moved to Khuzestan to work as the chief surgeon of the Anglo-Persian Oil Company. He moved"
+  },
+  {
+   "tool": "read",
+   "input": {
+    "title": "Persian Surgery Dervishes"
+   },
+   "result": "Page: Persian Surgery Dervishes\n\nPersian Surgery Dervishes is a recording of two live solo electric organ concerts, the first held in Los Angeles on 18 April 1971 and the second in Paris on 24 May 1972, by the avant-garde minimalist composer Terry Riley, following his A Rainbow in Curved Air and In C.\n\nSections: Background and release, Music, References, External links"
+  }
+ ],
+ "steps": 2,
+ "tokens": {
+  "input": 353,
+  "output": 521
+ },
+ "cost_usd": 0.000296,
+ "seconds": 3.776414155960083,
+ "method": "one-search"
+}

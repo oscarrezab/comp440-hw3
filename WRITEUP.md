@@ -1,6 +1,6 @@
 # COMP 440 HW3 write-up
 
-Name:
+Name: Oscar Reza Bautista
 
 Type each answer after the `>` under its question. An answer can run over several lines, but a blank line
 ends it: to start a new paragraph, put a line with just `>` between the two. In a table, fill every cell
@@ -28,31 +28,32 @@ There is nothing to write for this step except your name, after `Name:` at the t
 
 What verdict did the model give (*supported*, *refuted* or *doesn't say*), and what reason did it give? Quote the lines of the output that show them.
 
->
+> Verdict: doesn't say
+> Explanation: I can't confirm from memory who composed "Persian Surgery Dervishes" or find a birth date for that composer in English Wikipedia, so I can't tell whether it supports or refutes the claim.
 
 ## 0c. Give it one search
 
 Which Wikipedia page did it read? Quote the line of the output that shows it.
 
->
+> Read “Persian Surgery Dervishes”.
 
 Did that page settle the claim correctly? If not, why do you think the search led there?
 
->
+> It did not because the search was limited to the information on the piece, but not the information on the composer, so the date of birth is still unknown.
 
 ## 0d. Run the agent and read its trace
 
 In one or two sentences, how did the agent get from the claim to its verdict? Point to the trace entries by their numbers.
 
->
+> The first two entries are about searching for the piece and read the article to find the author. Then the third and four entries are about mapping the composer's date of birth field with the value, so that the fifth entry uses what was read from 2 and 4 as evidence.
 
 Which lookup would you have done differently, and how? If none, which one surprised you?
 
->
+> I think the lookups make sense generally, although I was surprised by the intermediate lookup four, since I didn't understand exactly why it was needed.
 
 Describe Wikidata briefly. Why may it be important to this task?
 
->
+> It puts together a group of statements related to a Wikipedia page. It might be important for quick lookups, since it appears to be a key-value type of structure.
 
 # Part 1: How the agent works
 

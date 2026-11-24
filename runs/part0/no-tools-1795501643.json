@@ -1,0 +1,15 @@
+{
+ "claim": "The composer of \"Persian Surgery Dervishes\" was born on June 24, 1935.",
+ "verdict": "doesn't say",
+ "evidence": [],
+ "explanation": "I can't confirm from memory who composed \"Persian Surgery Dervishes\" or find a birth date for that composer in English Wikipedia, so I can't tell whether it supports or refutes the claim.",
+ "trace": [],
+ "steps": 0,
+ "tokens": {
+  "input": 121,
+  "output": 696
+ },
+ "cost_usd": 0.00036,
+ "seconds": 3.3124160766601562,
+ "method": "no-tools"
+}
